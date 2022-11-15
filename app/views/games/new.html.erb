@@ -1,0 +1,8 @@
+<% @letters.each do |letter| %>
+<li><%= letter %></li>
+<% end %>
+
+<form class= form action="/new" data-turbo="false">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form>
